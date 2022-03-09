@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 331cd66df42c0b54c8e199a4ece71543
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Longbow
+    100002: Longbow.down.bone
+    100004: Longbow.down.bone.001
+    100006: Longbow.down.bone.002
+    100008: Longbow.down.bone.003
+    100010: Longbow.down.bone.004
+    100012: Longbow.down.bone.005
+    100014: Longbow.down.bone.006
+    100016: Longbow.down.bone.007
+    100018: Longbow.down.bone.007_end
+    100020: Longbow.down.horn
+    100022: Longbow.down.horn_end
+    100024: longbow.down.ik
+    100026: longbow.down.ik_end
+    100028: Longbow.down.shoulder
+    100030: Longbow.main
+    100032: Longbow.string
+    100034: Longbow.string_end
+    100036: Longbow.top.bone
+    100038: Longbow.top.bone.001
+    100040: Longbow.top.bone.002
+    100042: Longbow.top.bone.003
+    100044: Longbow.top.bone.004
+    100046: Longbow.top.bone.005
+    100048: Longbow.top.bone.006
+    100050: Longbow.top.bone.007
+    100052: Longbow.top.bone.007_end
+    100054: Longbow.top.horn
+    100056: Longbow.top.horn_end
+    100058: longbow.top.ik
+    100060: longbow.top.ik_end
+    100062: Longbow.top.shoulder
+    100064: //RootNode
+    100066: Wooden Longbow
+    400000: Longbow
+    400002: Longbow.down.bone
+    400004: Longbow.down.bone.001
+    400006: Longbow.down.bone.002
+    400008: Longbow.down.bone.003
+    400010: Longbow.down.bone.004
+    400012: Longbow.down.bone.005
+    400014: Longbow.down.bone.006
+    400016: Longbow.down.bone.007
+    400018: Longbow.down.bone.007_end
+    400020: Longbow.down.horn
+    400022: Longbow.down.horn_end
+    400024: longbow.down.ik
+    400026: longbow.down.ik_end
+    400028: Longbow.down.shoulder
+    400030: Longbow.main
+    400032: Longbow.string
+    400034: Longbow.string_end
+    400036: Longbow.top.bone
+    400038: Longbow.top.bone.001
+    400040: Longbow.top.bone.002
+    400042: Longbow.top.bone.003
+    400044: Longbow.top.bone.004
+    400046: Longbow.top.bone.005
+    400048: Longbow.top.bone.006
+    400050: Longbow.top.bone.007
+    400052: Longbow.top.bone.007_end
+    400054: Longbow.top.horn
+    400056: Longbow.top.horn_end
+    400058: longbow.top.ik
+    400060: longbow.top.ik_end
+    400062: Longbow.top.shoulder
+    400064: //RootNode
+    400066: Wooden Longbow
+    2100000: Longbow
+    4300000: Longbow
+    7400000: Wooden Longbow|Armature.001Action.001
+    9500000: //RootNode
+    13700000: Longbow
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Longbow
+    second: {fileID: 2100000, guid: 5f128d4fb4b7af6499751b9202514e38, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
