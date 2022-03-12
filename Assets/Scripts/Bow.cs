@@ -79,6 +79,7 @@ public class Bow : MonoBehaviour
 
     private void FireArrow()
     {
+        CurrentArrow.Fire(PullValue);
         CurrentArrow = null;
     }
 

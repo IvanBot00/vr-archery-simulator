@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArrowPrefab: {fileID: 8542102953145869890, guid: 5c51937e899ec9443a1757aefe9d49cb, type: 3}
-  GrabThreshold: 0.15
+  GrabThreshold: 0.1
   StartPoint: {fileID: 820010366}
   EndPoint: {fileID: 1885032564}
   Socket: {fileID: 232278569}
