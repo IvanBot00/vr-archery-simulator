@@ -61,7 +61,7 @@ public class Bow : MonoBehaviour
         PullValue = CalculatePull(PullingHand);
         PullValue = Mathf.Clamp(PullValue, 0.0f, 1.0f);
 
-        Debug.Log("Setting float to " + PullValue);
+        // Debug.Log("Setting float to " + PullValue);
 
         BowAnimator.SetFloat("Blend", PullValue);
     }
