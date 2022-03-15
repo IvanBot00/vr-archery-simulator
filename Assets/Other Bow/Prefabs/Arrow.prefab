@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8371234334440448612}
   - component: {fileID: 4902982125418022909}
   - component: {fileID: 384999108649450282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shaft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8623957444106179151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 4086743000292619854}
   - component: {fileID: 5509991328502552229}
   - component: {fileID: 6223868130374480976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 5832823175582339433}
   - component: {fileID: 3544760493190169588}
   - component: {fileID: 5012274331579132756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
