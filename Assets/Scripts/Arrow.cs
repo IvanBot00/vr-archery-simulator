@@ -23,6 +23,8 @@ public class Arrow : MonoBehaviour
     private bool isMoving = false;
     private Vector3 LastPosition = Vector3.zero;
 
+    private int layerMask = (1 << 7);
+
     private void Awake()
     {
         ArrowRB = GetComponent<Rigidbody>();
@@ -35,7 +37,7 @@ public class Arrow : MonoBehaviour
         
         ArrowRB.MoveRotation(Quaternion.LookRotation(ArrowRB.velocity, transform.up));
 
-        if (Physics.Linecast(LastPosition, ArrowTip.position))
+        if (Physics.Linecast(LastPosition, ArrowTip.position, layerMask))
         {
             Stop();
         }
