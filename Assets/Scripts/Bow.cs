@@ -39,6 +39,9 @@ public class Bow : MonoBehaviour
         PullValue = 0.0f;
         BowAnimator.SetFloat("Blend", 0);
 
+        //stop haptic feedback
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+
         if (!CurrentArrow)
             StartCoroutine(CreateArrow(0.25f));
     }
@@ -61,6 +64,10 @@ public class Bow : MonoBehaviour
         PullValue = CalculatePull(PullingHand);
         PullValue = Mathf.Clamp(PullValue, 0.0f, 1.0f);
 
+        //haptic feedback based off pull value
+        OVRInput.SetControllerVibration(0.5f, PullValue,
+                                        OVRInput.Controller.RTouch);
+
         Debug.Log("Setting float to " + PullValue);
 
         BowAnimator.SetFloat("Blend", PullValue);
@@ -69,7 +76,7 @@ public class Bow : MonoBehaviour
     private float CalculatePull(Transform pullHand)
     {
         Vector3 direction = EndPoint.position - StartPoint.position;
-        
+
         direction.Normalize();
 
         Vector3 difference = pullHand.position - StartPoint.position;
