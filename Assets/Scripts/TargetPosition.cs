@@ -22,9 +22,10 @@ public class TargetPosition : MonoBehaviour
         }
     }
 
+
     public void DestroyAllArrows()
     {
-        GameObject[] arrows = GameObject.FindGameObjectsWithTag("Arrows");
+        GameObject[] arrows = GameObject.FindGameObjectsWithTag("Arrow");
         foreach (GameObject arrow in arrows)
         {
             Destroy(arrow);
