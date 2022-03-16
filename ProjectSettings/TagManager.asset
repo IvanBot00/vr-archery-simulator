@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Arrow
+  - Tactical Targets
+  - Arrow
   layers:
   - Default
   - TransparentFX

@@ -35,7 +35,26 @@ public class Inputs : MonoBehaviour
         //Scoring Reset
         if (OVRInput.GetDown(OVRInput.RawButton.B))
         {
+			Debug.Log("B button pressed");
             m_Score.current_score = 0;
+			m_Score.tactical_score = 0;
+			
+			//resetting targets still not working
+            GameObject[] targets = GameObject.FindGameObjectsWithTag("Tactical Targets");
+            foreach (GameObject target in targets) {
+				Debug.Log("Current target: " + target.ToString());
+                target.SetActive(true);
+            }
+        }
+
+        if(OVRInput.GetDown(OVRInput.RawButton.Start)) {
+            //exit and save score (?)
+            #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+            #else
+                PlayerPrefs.SetInt("HighScore", m_Score.high_score);
+                Application.Quit();
+            #endif
         }
     }
 }

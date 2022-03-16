@@ -19,13 +19,14 @@ public class Arrow : MonoBehaviour
 
     private Rigidbody ArrowRB = null;
     private bool isMoving = false;
-    private Vector3 LastPosition = Vector3.zero;
+    private Vector3 LastPosition;
 
     private int layerMask = (1 << 7);
 
     private void Awake()
     {
         ArrowRB = GetComponent<Rigidbody>();
+		LastPosition = ArrowTip.position;
     }
 
     private void FixedUpdate()
@@ -37,11 +38,14 @@ public class Arrow : MonoBehaviour
 
         //detects collisions with level layer
         //currently works as long as target is not closeby
-        if (Physics.Linecast(LastPosition, ArrowTip.position, layerMask))
+		RaycastHit hitInfo;
+        if (Physics.Linecast(LastPosition, ArrowTip.position, out hitInfo, layerMask))
         {
-            Debug.Log("Collision Detected");
+			Transform currHit = hitInfo.transform;
+            Debug.Log("Collision Detected with " + currHit.ToString());
+			Debug.Log("hit at " + hitInfo.point);
             Stop();
-            Destroy(gameObject, 120.0f);
+            Destroy(gameObject, 60.0f);
         }
         LastPosition = ArrowTip.position;
     }
@@ -51,5 +55,12 @@ public class Arrow : MonoBehaviour
         isMoving = false;
         ArrowRB.isKinematic = true;
         ArrowRB.useGravity = false;
+    }
+
+    //destroys arrows when hitting tactical target
+    void OnCollisionEnter(Collision collision) {
+        if(collision.gameObject.tag == "Tactical Targets") {
+            Destroy(gameObject);
+        }
     }
 }
