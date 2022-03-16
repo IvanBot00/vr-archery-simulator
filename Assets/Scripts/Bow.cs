@@ -70,6 +70,8 @@ public class Bow : MonoBehaviour
 
         Debug.Log("Setting float to " + PullValue);
 
+        //need to modify PullValue parameter since the string animation doesnt
+        //match the user's controllers
         BowAnimator.SetFloat("Blend", PullValue);
     }
 
