@@ -20,7 +20,7 @@ public class Inputs : MonoBehaviour
         {
             m_Bow.ReleaseBowString();
         }
-        
+
         // Target Control
         if (OVRInput.GetDown(OVRInput.RawButton.X))
         {

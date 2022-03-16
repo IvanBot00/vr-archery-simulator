@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TargetPosition : MonoBehaviour
 {
-    public Vector3 m_Step = new Vector3(3, 0, 0);
+    private Vector3 m_Step = new Vector3(5, 0, 0);
 
     public void IncreaseDistance()
     {
-        if(this.transform.position[0] < 13.0f) {
+        if(this.transform.position[0] < 17.0f) {
             DestroyAllArrows();
             transform.position += m_Step;
         }
