@@ -5,19 +5,16 @@ using UnityEngine;
 public class TargetPosition : MonoBehaviour
 {
     public Vector3 m_Step = new Vector3(-5, 0, 0);
-    public GameObject bow;
 
     public void IncreaseDistance()
     {
         DestroyAllArrows();
-        bow.GetComponent<Bow>().ReleaseBowString();
         transform.position += m_Step;
     }
 
     public void DecreaseDistance()
     {
         DestroyAllArrows();
-        bow.GetComponent<Bow>().ReleaseBowString();
         transform.position -= m_Step;
     }
 
