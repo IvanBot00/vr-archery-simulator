@@ -8,7 +8,7 @@ public class Bow : MonoBehaviour
     public GameObject ArrowPrefab = null;
 
     [Header("Bow")]
-    public float GrabThreshold = 0.15f;
+    public float GrabThreshold = 0.10f;
     public Transform StartPoint = null;
     public Transform EndPoint = null;
     public Transform Socket = null; // Location of the place where the arrow snaps to the bow
@@ -77,11 +77,13 @@ public class Bow : MonoBehaviour
     {
         Vector3 direction = EndPoint.position - StartPoint.position;
 
+        float magnitude = direction.magnitude;
+
         direction.Normalize();
 
         Vector3 difference = pullHand.position - StartPoint.position;
 
-        return Vector3.Dot(difference, direction) / direction.magnitude;
+        return Vector3.Dot(difference, direction) / magnitude;
     }
 
     private void FireArrow()
