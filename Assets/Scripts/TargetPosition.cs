@@ -8,11 +8,22 @@ public class TargetPosition : MonoBehaviour
 
     public void IncreaseDistance()
     {
+        DestroyAllArrows();
         transform.position += m_Step;
     }
 
     public void DecreaseDistance()
     {
+        DestroyAllArrows();
         transform.position -= m_Step;
+    }
+
+    public void DestroyAllArrows()
+    {
+        GameObject[] arrows = GameObject.FindGameObjectsWithTag("Arrow");
+        foreach (GameObject arrow in arrows)
+        {
+            Destroy(arrow);
+        }
     }
 }
