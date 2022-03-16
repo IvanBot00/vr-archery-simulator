@@ -18,15 +18,6 @@ public class TargetPosition : MonoBehaviour
         transform.position -= m_Step;
     }
 
-    public void OnCollisionEnter(Collision collision)
-    {
-        /*
-         * Points should be calculated using collision position
-         */
-
-        Debug.Log("Collision detected with target");
-    }
-
     public void DestroyAllArrows()
     {
         GameObject[] arrows = GameObject.FindGameObjectsWithTag("Arrows");
