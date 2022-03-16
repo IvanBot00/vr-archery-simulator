@@ -15,8 +15,6 @@ public class Arrow : MonoBehaviour
         ArrowRB.isKinematic = false;
         ArrowRB.useGravity = true;
         ArrowRB.AddForce(transform.forward * (pullValue * BaseSpeed));
-
-        //Destroy(gameObject, 360.0f); // Gets rid of arrow after set time
     }
 
     private Rigidbody ArrowRB = null;
@@ -34,10 +32,11 @@ public class Arrow : MonoBehaviour
     {
         if (!isMoving)
             return;
-        
+
         ArrowRB.MoveRotation(Quaternion.LookRotation(ArrowRB.velocity, transform.up));
 
-
+        //detects collisions with level layer
+        //currently works as long as target is not closeby
         if (Physics.Linecast(LastPosition, ArrowTip.position, layerMask))
         {
             Debug.Log("Collision Detected");
@@ -53,13 +52,4 @@ public class Arrow : MonoBehaviour
         ArrowRB.isKinematic = true;
         ArrowRB.useGravity = false;
     }
-
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("Arrow collision detected with " + collision.gameObject.ToString());
-        
-        //Stop();
-        Destroy(gameObject, 60.0f);
-    }*/
-
 }
