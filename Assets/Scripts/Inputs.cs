@@ -5,6 +5,7 @@ using UnityEngine;
 public class Inputs : MonoBehaviour
 {
     public Bow m_Bow = null;
+    public ScoringManager m_Score = null;
     public GameObject m_OppositeController = null;
     public OVRInput.Controller m_Controller = OVRInput.Controller.None;
     public GameObject m_Target = null;
@@ -29,6 +30,12 @@ public class Inputs : MonoBehaviour
         if (OVRInput.GetDown(OVRInput.RawButton.Y))
         {
             m_Target.GetComponent<TargetPosition>().IncreaseDistance();
+        }
+
+        //Scoring Reset
+        if (OVRInput.GetDown(OVRInput.RawButton.B))
+        {
+            m_Score.current_score = 0;
         }
     }
 }
