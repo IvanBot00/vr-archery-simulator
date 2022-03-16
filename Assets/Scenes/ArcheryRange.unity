@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8032951, g: 0.70765287, b: 0.6226886, a: 1}
+  m_IndirectSpecularColor: {r: 0.80329424, g: 0.707654, b: 0.62269074, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -844,6 +844,7 @@ GameObject:
   - component: {fileID: 932166997}
   - component: {fileID: 932166996}
   - component: {fileID: 932167000}
+  - component: {fileID: 932167001}
   m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
@@ -941,6 +942,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Step: {x: -5, y: 0, z: 0}
+  bow: {fileID: 1487383667}
+--- !u!54 &932167001
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932166995}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
 --- !u!4 &1146814819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445910, guid: c63ea781a273235439e583799176c846, type: 3}
@@ -1079,6 +1097,7 @@ MonoBehaviour:
   StartPoint: {fileID: 634013883}
   EndPoint: {fileID: 1857760453}
   Socket: {fileID: 1724361477}
+  CurrentArrow: {fileID: 0}
 --- !u!4 &1625506965 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 472700, guid: d638ef2ca2fe20c4c9c08e125692d3f4, type: 3}

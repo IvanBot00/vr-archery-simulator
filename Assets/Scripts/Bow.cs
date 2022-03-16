@@ -14,7 +14,7 @@ public class Bow : MonoBehaviour
     public Transform Socket = null; // Location of the place where the arrow snaps to the bow
 
     private Transform PullingHand = null;
-    private Arrow CurrentArrow = null;
+    public Arrow CurrentArrow = null;
     private Animator BowAnimator = null;
     private float PullValue = 0.0f;
 
@@ -58,7 +58,12 @@ public class Bow : MonoBehaviour
 
     private void Update()
     {
-        if (!PullingHand || !CurrentArrow)
+        if(!CurrentArrow)
+        {
+            CreateArrow(0.25f);
+        }
+
+        if (!PullingHand)
             return;
 
         PullValue = CalculatePull(PullingHand);
@@ -88,11 +93,12 @@ public class Bow : MonoBehaviour
 
     private void FireArrow()
     {
+        CurrentArrow.tag = "Arrows";
         CurrentArrow.Fire(PullValue);
         CurrentArrow = null;
     }
 
-    private IEnumerator CreateArrow(float waitTime)
+    public IEnumerator CreateArrow(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
 
