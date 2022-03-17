@@ -16,7 +16,7 @@ public class RangeTargetHit : MonoBehaviour
         //Determine distance from center and increment m_score.current_score
         //based off distance
         int hit_score = 0;
-        Debug.Log("Range Target Hit");
+        //Debug.Log("Range Target Hit");
 
         Vector3 hit_position = collision.GetContact(0).point;
         float dist = Vector3.Distance(hit_position, transform.position);

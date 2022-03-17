@@ -12,7 +12,7 @@ public class DummyTarget : MonoBehaviour
     public void TurnOn()
     {
         gameObject.SetActive(true);
-    }  
+    }
 
     public void TurnOff()
     {
@@ -61,7 +61,7 @@ public class DummyTarget : MonoBehaviour
                 ++index;
             }
             --index;
-            return index; 
+            return index;
         }
         // Else
         ++index;

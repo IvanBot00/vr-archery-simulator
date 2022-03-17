@@ -13,13 +13,14 @@ public class ArcadeMode : MonoBehaviour
     {
         game_started = false;
         time_remaining = 60.0f;
+        num_targets = GameObject.FindGameObjectsWithTag("DummyTarget").Length;
     }
 
     // Update is called once per frame
     void Update()
     {
-        num_targets = GameObject.FindGameObjectsWithTag("Tactical Targets").Length;
-        if(num_targets < 16)
+        int new_num_targets = GameObject.FindGameObjectsWithTag("DummyTarget").Length;
+        if(new_num_targets < num_targets)
         {
             game_started = true;
         }

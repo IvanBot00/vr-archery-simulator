@@ -12,10 +12,13 @@ public class ScoringManager : MonoBehaviour
     public Transform camera;
     public ArcadeMode arcade_game;
     private bool in_range;
-    
+
     public void IncrementTacticalScore()
     {
-        ++tactical_score;
+        if(arcade_game.time_remaining > 0.0f)
+        {
+            ++tactical_score;
+        }
     }
 
     void Start()
