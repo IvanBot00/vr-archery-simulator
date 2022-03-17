@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 8236380}
   - component: {fileID: 8236379}
   - component: {fileID: 8236378}
-  - component: {fileID: 8236381}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -219,19 +218,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8236376}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &8236381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8236376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &16264892
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +434,6 @@ GameObject:
   - component: {fileID: 148753447}
   - component: {fileID: 148753446}
   - component: {fileID: 148753445}
-  - component: {fileID: 148753448}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -533,19 +518,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148753443}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &148753448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148753443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &166304875
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +757,6 @@ GameObject:
   - component: {fileID: 252683473}
   - component: {fileID: 252683472}
   - component: {fileID: 252683471}
-  - component: {fileID: 252683474}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -870,19 +841,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252683469}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &252683474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252683469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &287093660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1219,7 +1177,6 @@ GameObject:
   - component: {fileID: 410442285}
   - component: {fileID: 410442284}
   - component: {fileID: 410442283}
-  - component: {fileID: 410442286}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -1304,19 +1261,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410442281}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &410442286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410442281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &464957721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1513,7 +1457,6 @@ GameObject:
   - component: {fileID: 569130622}
   - component: {fileID: 569130621}
   - component: {fileID: 569130620}
-  - component: {fileID: 569130623}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -1597,19 +1540,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569130618}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &569130623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569130618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &590077837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,7 +1552,6 @@ GameObject:
   - component: {fileID: 590077841}
   - component: {fileID: 590077840}
   - component: {fileID: 590077839}
-  - component: {fileID: 590077842}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -1706,19 +1635,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590077837}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &590077842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590077837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &615608509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2362,7 +2278,6 @@ GameObject:
   - component: {fileID: 880593447}
   - component: {fileID: 880593446}
   - component: {fileID: 880593445}
-  - component: {fileID: 880593448}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -2447,19 +2362,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880593443}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &880593448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880593443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!4 &886311380 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447698, guid: 86d31dad2de1ffd48917413b71dd9668, type: 3}
@@ -2543,7 +2445,6 @@ GameObject:
   - component: {fileID: 932284193}
   - component: {fileID: 932284192}
   - component: {fileID: 932284191}
-  - component: {fileID: 932284194}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -2627,19 +2528,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932284189}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &932284194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932284189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &937927897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2928,7 +2816,6 @@ GameObject:
   - component: {fileID: 971309298}
   - component: {fileID: 971309297}
   - component: {fileID: 971309296}
-  - component: {fileID: 971309299}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -3012,19 +2899,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971309294}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &971309299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971309294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &1017061386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3625,7 +3499,6 @@ GameObject:
   - component: {fileID: 1182939875}
   - component: {fileID: 1182939874}
   - component: {fileID: 1182939873}
-  - component: {fileID: 1182939876}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -3709,19 +3582,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182939871}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1182939876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182939871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &1209240144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3874,7 +3734,6 @@ GameObject:
   - component: {fileID: 1236415937}
   - component: {fileID: 1236415936}
   - component: {fileID: 1236415935}
-  - component: {fileID: 1236415938}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -3959,19 +3818,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236415933}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1236415938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236415933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &1247597721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4065,7 +3911,6 @@ GameObject:
   - component: {fileID: 1250961839}
   - component: {fileID: 1250961838}
   - component: {fileID: 1250961837}
-  - component: {fileID: 1250961840}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -4149,19 +3994,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250961835}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1250961840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250961835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1278124158
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,7 +4072,6 @@ GameObject:
   - component: {fileID: 1281627815}
   - component: {fileID: 1281627814}
   - component: {fileID: 1281627813}
-  - component: {fileID: 1281627816}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -4325,19 +4156,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281627811}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1281627816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281627811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1291257015
 GameObject:
   m_ObjectHideFlags: 0
@@ -4350,7 +4168,6 @@ GameObject:
   - component: {fileID: 1291257019}
   - component: {fileID: 1291257018}
   - component: {fileID: 1291257017}
-  - component: {fileID: 1291257020}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -4435,19 +4252,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291257015}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1291257020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291257015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1291360049
 GameObject:
   m_ObjectHideFlags: 0
@@ -4460,7 +4264,6 @@ GameObject:
   - component: {fileID: 1291360053}
   - component: {fileID: 1291360052}
   - component: {fileID: 1291360051}
-  - component: {fileID: 1291360054}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -4545,19 +4348,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291360049}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1291360054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291360049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &1302520505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4759,7 +4549,6 @@ GameObject:
   - component: {fileID: 1353136211}
   - component: {fileID: 1353136210}
   - component: {fileID: 1353136209}
-  - component: {fileID: 1353136212}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -4843,19 +4632,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353136207}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1353136212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353136207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1365328882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4934,7 +4710,6 @@ GameObject:
   - component: {fileID: 1389594027}
   - component: {fileID: 1389594026}
   - component: {fileID: 1389594025}
-  - component: {fileID: 1389594028}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -5019,19 +4794,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389594023}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1389594028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1389594023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1403320936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,7 +4806,6 @@ GameObject:
   - component: {fileID: 1403320940}
   - component: {fileID: 1403320939}
   - component: {fileID: 1403320938}
-  - component: {fileID: 1403320941}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -5128,19 +4889,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403320936}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1403320941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403320936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!4 &1407145976 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447698, guid: 86d31dad2de1ffd48917413b71dd9668, type: 3}
@@ -5320,7 +5068,6 @@ GameObject:
   - component: {fileID: 1504117687}
   - component: {fileID: 1504117686}
   - component: {fileID: 1504117685}
-  - component: {fileID: 1504117688}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -5405,19 +5152,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504117683}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1504117688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504117683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1525760334
 GameObject:
   m_ObjectHideFlags: 0
@@ -5689,7 +5423,6 @@ GameObject:
   - component: {fileID: 1557536539}
   - component: {fileID: 1557536538}
   - component: {fileID: 1557536537}
-  - component: {fileID: 1557536540}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -5773,19 +5506,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557536535}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1557536540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557536535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!4 &1600197722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447698, guid: 86d31dad2de1ffd48917413b71dd9668, type: 3}
@@ -5860,7 +5580,6 @@ GameObject:
   - component: {fileID: 1641470859}
   - component: {fileID: 1641470858}
   - component: {fileID: 1641470857}
-  - component: {fileID: 1641470860}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -5944,19 +5663,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641470855}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1641470860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641470855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1679777102
 GameObject:
   m_ObjectHideFlags: 0
@@ -5969,7 +5675,6 @@ GameObject:
   - component: {fileID: 1679777106}
   - component: {fileID: 1679777105}
   - component: {fileID: 1679777104}
-  - component: {fileID: 1679777107}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -6054,19 +5759,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679777102}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1679777107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679777102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1696449954
 GameObject:
   m_ObjectHideFlags: 0
@@ -6079,7 +5771,6 @@ GameObject:
   - component: {fileID: 1696449958}
   - component: {fileID: 1696449957}
   - component: {fileID: 1696449956}
-  - component: {fileID: 1696449959}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -6164,19 +5855,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696449954}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1696449959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696449954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1750151585
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,7 +5867,6 @@ GameObject:
   - component: {fileID: 1750151589}
   - component: {fileID: 1750151588}
   - component: {fileID: 1750151587}
-  - component: {fileID: 1750151590}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -6273,19 +5950,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750151585}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1750151590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750151585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1001 &1756084392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6445,7 +6109,6 @@ GameObject:
   - component: {fileID: 1837419660}
   - component: {fileID: 1837419659}
   - component: {fileID: 1837419658}
-  - component: {fileID: 1837419661}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -6530,19 +6193,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837419656}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1837419661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837419656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!4 &1846818098 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447698, guid: 86d31dad2de1ffd48917413b71dd9668, type: 3}
@@ -6560,7 +6210,6 @@ GameObject:
   - component: {fileID: 1860003840}
   - component: {fileID: 1860003839}
   - component: {fileID: 1860003838}
-  - component: {fileID: 1860003841}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -6644,19 +6293,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860003836}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1860003841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860003836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1864964749
 GameObject:
   m_ObjectHideFlags: 0
@@ -6669,7 +6305,6 @@ GameObject:
   - component: {fileID: 1864964753}
   - component: {fileID: 1864964752}
   - component: {fileID: 1864964751}
-  - component: {fileID: 1864964754}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -6754,19 +6389,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864964749}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1864964754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864964749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1948327844
 GameObject:
   m_ObjectHideFlags: 0
@@ -6779,7 +6401,6 @@ GameObject:
   - component: {fileID: 1948327848}
   - component: {fileID: 1948327847}
   - component: {fileID: 1948327846}
-  - component: {fileID: 1948327849}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -6863,19 +6484,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948327844}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1948327849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948327844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &1960874705
 GameObject:
   m_ObjectHideFlags: 0
@@ -7147,7 +6755,6 @@ GameObject:
   - component: {fileID: 1988381601}
   - component: {fileID: 1988381600}
   - component: {fileID: 1988381599}
-  - component: {fileID: 1988381602}
   m_Layer: 7
   m_Name: Capsule
   m_TagString: Tactical Targets
@@ -7232,19 +6839,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988381597}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1988381602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988381597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 668baf3e90274e245bdd0ace9a0957a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!1 &2097685688
 GameObject:
   m_ObjectHideFlags: 0
@@ -7379,7 +6973,6 @@ GameObject:
   - component: {fileID: 2119483130}
   - component: {fileID: 2119483129}
   - component: {fileID: 2119483128}
-  - component: {fileID: 2119483131}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Tactical Targets
@@ -7463,19 +7056,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119483126}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2119483131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119483126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6a0d3373910b4b008edc704746432ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_score: {fileID: 1049115293}
 --- !u!4 &2147350919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447698, guid: 86d31dad2de1ffd48917413b71dd9668, type: 3}

@@ -44,9 +44,9 @@ public class TacticalTarget : MonoBehaviour
 		}
 		else
 		{
-			//m_score.tactical_score += 1;
+			m_score.tactical_score += 1;
 			//Debug.Log("Score: " + m_score.tactical_score);
-			//this.gameObject.SetActive(false);
+			this.gameObject.SetActive(false);
 		}
 
 	}
