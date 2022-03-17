@@ -20,7 +20,7 @@ public class RangeTargetHit : MonoBehaviour
 
         Vector3 hit_position = collision.GetContact(0).point;
         float dist = Vector3.Distance(hit_position, transform.position);
-        Debug.Log("Collision at distance: " + dist);
+        //Debug.Log("Collision at distance: " + dist);
 
         if(dist > zone4) {
             hit_score = 1;
@@ -40,5 +40,6 @@ public class RangeTargetHit : MonoBehaviour
         //m_audio.clip = m_hit_sound;
         //m_audio.Play();
         m_score.current_score = hit_score;
+        Debug.Log("Current score: " + hit_score);
     }
 }

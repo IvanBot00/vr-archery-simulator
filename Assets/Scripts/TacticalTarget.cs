@@ -10,6 +10,7 @@ public class TacticalTarget : MonoBehaviour
     private Vector3 initRotation;
 	private float initYPosition;
 	public ScoringManager m_score = null;
+	public ArcadeMode arcade_game;
 	// Start is called before the first frame update
     void Start()
     {
@@ -36,19 +37,21 @@ public class TacticalTarget : MonoBehaviour
 		}
 	}
 
-	void OnCollisionEnter(Collision collision) {
-
+	void OnCollisionEnter(Collision collision)
+	{
 		if(collision.gameObject.tag != "Arrow")
 		{
 			velocity = -velocity;
 		}
 		else
 		{
-			m_score.tactical_score += 1;
-			//Debug.Log("Score: " + m_score.tactical_score);
-			this.gameObject.SetActive(false);
+			if(arcade_game.time_remaining > 0.0f)
+			{
+				m_score.tactical_score += 1;
+				//Debug.Log("Score: " + m_score.tactical_score);
+				this.gameObject.SetActive(false);
+			}
 		}
-
 	}
 
 }

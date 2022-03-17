@@ -38,13 +38,9 @@ public class Inputs : MonoBehaviour
 			Debug.Log("B button pressed");
             m_Score.current_score = 0;
 			m_Score.tactical_score = 0;
-			
-			//resetting targets still not working
-            GameObject[] targets = GameObject.FindGameObjectsWithTag("Tactical Targets");
-            foreach (GameObject target in targets) {
-				Debug.Log("Current target: " + target.ToString());
-                target.SetActive(true);
-            }
+
+			//reset targets somehow
+            
         }
 
         if(OVRInput.GetDown(OVRInput.RawButton.Start)) {

@@ -10,6 +10,7 @@ public class ScoringManager : MonoBehaviour
     public int tactical_score;
     public int high_score;
     public Transform camera;
+    public ArcadeMode arcade_game;
     private bool in_range;
     // Start is called before the first frame update
     void Start()
@@ -26,22 +27,27 @@ public class ScoringManager : MonoBehaviour
 
     void Update()
     {
-        if(camera.position[0] <= -9.0f) {
+        if(camera.localPosition[0] <= -9.0f)
+        {
             in_range = false;
         }
-        else {
+        else
+        {
             in_range = true;
         }
 
-        if (tactical_score > high_score) {
+        if (tactical_score > high_score)
+        {
             high_score = tactical_score;
         }
 
-        if(in_range) {
+        if(in_range)
+        {
             scoreboard.text = DisplayRangeScore();
         }
-        else {
-            scoreboard.text = DisplayTacticalScore();
+        else
+        {
+            scoreboard.text = DisplayTacticalScore(arcade_game.time_remaining);
         }
 
     }
@@ -54,11 +60,14 @@ public class ScoringManager : MonoBehaviour
         return out_string;
     }
 
-    string DisplayTacticalScore()
+    string DisplayTacticalScore(float timer)
     {
         string out_string;
-        out_string = "Current Score: ";
+        out_string = "Time remaining: \n" + timer + " seconds";
+        out_string = out_string + "\nCurrent Score: ";
         out_string = out_string + tactical_score;
+        out_string = out_string + "\n\nHigh Score: ";
+        out_string = out_string + high_score;
         return out_string;
     }
 }
