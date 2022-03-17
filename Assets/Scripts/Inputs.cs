@@ -40,11 +40,12 @@ public class Inputs : MonoBehaviour
 			m_Score.tactical_score = 0;
 			
 			//resetting targets still not working
-            GameObject[] targets = GameObject.FindGameObjectsWithTag("Tactical Targets");
-            foreach (GameObject target in targets) {
-				Debug.Log("Current target: " + target.ToString());
-                target.SetActive(true);
-            }
+            // GameObject[] targets = GameObject.FindGameObjectsWithTag("Tactical Targets");
+            // foreach (GameObject target in targets) {
+			// 	Debug.Log("Current target: " + target.ToString());
+            //     target.SetActive(true);
+            // }
+            FindObjectOfType<DummyHolder>().Reset();
         }
 
         if(OVRInput.GetDown(OVRInput.RawButton.Start)) {
