@@ -73,7 +73,7 @@ public class Bow : MonoBehaviour
         OVRInput.SetControllerVibration(0.5f, PullValue,
                                         OVRInput.Controller.RTouch);
 
-        Debug.Log("Setting float to " + PullValue);
+        // Debug.Log("Setting float to " + PullValue);
 
         //need to modify PullValue parameter since the string animation doesnt
         //match the user's controllers

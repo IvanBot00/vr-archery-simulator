@@ -17,6 +17,11 @@ public class Arrow : MonoBehaviour
         ArrowRB.AddForce(transform.forward * (pullValue * BaseSpeed));
     }
 
+    public void Destroy()
+    {
+        Destroy(gameObject);
+    }
+
     private Rigidbody ArrowRB = null;
     private bool isMoving = false;
     private Vector3 LastPosition;
@@ -41,9 +46,13 @@ public class Arrow : MonoBehaviour
 		RaycastHit hitInfo;
         if (Physics.Linecast(LastPosition, ArrowTip.position, out hitInfo, layerMask))
         {
-			Transform currHit = hitInfo.transform;
-            Debug.Log("Collision Detected with " + currHit.ToString());
-			Debug.Log("hit at " + hitInfo.point);
+            GameObject obj = hitInfo.collider.gameObject;
+            if (obj.tag == "DummyTarget")
+            {
+                obj = hitInfo.collider.gameObject.transform.parent.gameObject;
+                gameObject.transform.parent = obj.transform;
+                obj.GetComponent<DummyTarget>().TurnOff();
+            }
             Stop();
             Destroy(gameObject, 60.0f);
         }

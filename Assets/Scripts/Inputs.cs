@@ -38,9 +38,14 @@ public class Inputs : MonoBehaviour
 			Debug.Log("B button pressed");
             m_Score.current_score = 0;
 			m_Score.tactical_score = 0;
-
-			//reset targets somehow
-            
+			
+			//resetting targets still not working
+            // GameObject[] targets = GameObject.FindGameObjectsWithTag("Tactical Targets");
+            // foreach (GameObject target in targets) {
+			// 	Debug.Log("Current target: " + target.ToString());
+            //     target.SetActive(true);
+            // }
+            FindObjectOfType<DummyHolder>().Reset();
         }
 
         if(OVRInput.GetDown(OVRInput.RawButton.Start)) {

@@ -12,7 +12,12 @@ public class ScoringManager : MonoBehaviour
     public Transform camera;
     public ArcadeMode arcade_game;
     private bool in_range;
-    // Start is called before the first frame update
+    
+    public void IncrementTacticalScore()
+    {
+        ++tactical_score;
+    }
+
     void Start()
     {
         current_score = 0;
