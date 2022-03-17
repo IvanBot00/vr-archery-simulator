@@ -6,6 +6,7 @@ public class Arrow : MonoBehaviour
 {
     public float BaseSpeed = 2000.0f;
     public Transform ArrowTip = null;
+    public AudioSource hitSound = null;
 
     public void Fire(float pullValue)
     {
@@ -52,6 +53,7 @@ public class Arrow : MonoBehaviour
 
     private void Stop()
     {
+        hitSound.Play();
         isMoving = false;
         ArrowRB.isKinematic = true;
         ArrowRB.useGravity = false;
